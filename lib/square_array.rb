@@ -1,6 +1,7 @@
-counter = 0
-array = [1,2,3,4,5]
- 
-while array[counter] do
-  puts array[counter]
-  counter += 1
+def square_array(numbers)
+  # your code here	  new_numbers = []
+end 	  numbers.each do |num|
+    new_numbers << (num ** 2)
+  end
+  return new_numbers
+end
